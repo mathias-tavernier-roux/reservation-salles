@@ -1,0 +1,32 @@
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.reservation {
+  max-height: 50px;
+  overflow-y: scroll;
+  line-height: 1rem;
+}
+
+td,
+th {
+  min-width: 90px;
+  width: 13.5%;
+}
+
+td:first-child,
+th:first-child {
+  width: 5%;
+  min-width: 40px;
+}
+
+html,
+body {
+  height: 100% !important;
+  background-color:#1d2124!important
+}
+
+main {
+  margin: auto !important;
+}

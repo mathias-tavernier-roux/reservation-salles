@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Ubuntu:wght@300&display=swap');
+.v-flex
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+h1
+{
+font-family: 'Goldman', cursive;
+color: #FFFFFF;
+}
+h3
+{
+font-family: 'Ubuntu', sans-serif;
+color: #FFFFFF;
+}
+p
+{
+font-family: 'Ubuntu', sans-serif;
+color: #FFFFFF;
+}
+a
+{
+font-family: 'Ubuntu', sans-serif;
+color: #FFFFFF;
+}
+iframe
+{
+border-color: #FFFFFF;
+border-radius: 20px;
+}
+.DC-Button {
+  background-color:#c74545;
+  border-radius:28px;
+  border:1px solid #ab1919;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-size:17px;
+  font-weight:bold;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #662828;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.DC-Button:hover {
+  background-color:#bd2a3d;
+}
+.DC-Button:active {
+  position:relative;
+  top:1px;
+}
+.C-Button {
+  background-color:#44c767;
+  border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  padding:18px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+
+}
+.C-Button:hover {
+  background-color:#5cbf2a;
+}
+.C-Button:active {
+  position:relative;
+  top:1px;
+}
+body {
+  background: #1c242d;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  padding: 30px 25px 10px 25px;
+  background: white;
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #AEAEAE;
+  background: #f8f8f8;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -26px 26px;
+}
+.box-button {
+  border-radius: 5px;
+  background: #d2483c;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+table{
+  table-layout: fixed;
+  width: 100%;
+  color: #FFFFFF;
+}
+thead
+{
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: large;
+}
+td
+{
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+}
